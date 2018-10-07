@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="300px"
+        android:background="@color/colorPrimary"
+        android:layout_height="300px"
+        android:layout_margin="5px"
+        android:id="@+id/imgListView"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60px"
+        android:background="#e49a9a"
+        android:layout_toRightOf="@+id/imgListView"
+        android:id="@+id/txtContact"
+        android:text="Contact"
+        android:layout_marginTop="5px"
+        android:textSize="25sp"
+        android:layout_marginLeft="50px"
+        android:padding="5px"/>
+
+</RelativeLayout>
